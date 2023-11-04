@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Gabarito&family=Lato:ital,wght@0,700;1,700&family=Poppins&family=Raleway&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="protofliocss.css">
+    <style>
+    </style>
+</head>
+
+<body>
+    <header class="nav">
+        <div class="left">
+            <h2>Port<span>folio</span></h2>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#">About Us</a></li>
+                <li class="item"><a href="#">Services</a></li>
+                <li class="item"><a href="#">Skills</a></li>
+                <li class="item"><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn" id="nav-btn">Subscribe</button>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="greeting">Hello, My Name is</div>
+            <h1>Pavani</h1>
+            <div class="greeting">I'am a WebDeveloper</div>
+            <input type="text" name="" id="" placeholder="Enter Your Email">
+            <button class="btn">Let's Strat</button>
+        </div>
+    </section>
+    <main class="about">
+        <div class="left item2">
+            <img src="javafolder/section2.jpg" alt="">
+        </div>
+        </div>
+        <div class="right item2">
+            <h1>About Me</h1>
+            <h4 class="decsript">
+                Developer & Designer
+            </h4>
+            <p>I am a front-end Web Developer. I can provide clean Code and pixel perfect design.I can also make the
+                website more and nore interactive with the WEB Animations Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Possimus iusto quibusdam eum distinctio odit commodi, consequatur debitis numquam
+                dolores, assumenda esse, quas suscipit! Facere reprehenderit nihil ducimus. Nihil, harum nam. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Provident, rerum!</p>
+            <div>
+
+                <button class="btn">Lets Talk</button>
+            </div>
+        </div>
+    </main>
+    <h1 class="services">Our Services</h1>
+    <div class="services">
+        <div class="left item3">
+            <img class="sec" src="sec1.jpg" alt="">
+            <h2>Web Developement</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, consequatur quae adipisci architecto, laboriosam nemo autem hic quasi error eius odit in omnis illum ipsa ut vel voluptates accusamus deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, corrupti.</p>
+            <button class="btn">Read More</button>
+        </div>
+        <div class="mid item3">
+            <img class="sec" src="sec2.jpg" alt="">
+            <h2>Web Developement</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, consequatur quae adipisci architecto, laboriosam nemo autem hic quasi error eius odit in omnis illum ipsa ut vel voluptates accusamus deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, corrupti.</p>
+            <button class="btn">Read More</button>
+        </div>
+        <div class="right item3">
+            
+            <img class="sec" src="sec3.jpg" alt="">
+            <h2>Web Developement</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, consequatur quae adipisci architecto, laboriosam nemo autem hic quasi error eius odit in omnis illum ipsa ut vel voluptates accusamus deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, corrupti.</p>
+            <button class="btn">Read More</button>
+        </div>
+    </div>
+</body>
+
+</html>
